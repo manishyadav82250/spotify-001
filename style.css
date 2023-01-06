@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px red solid; */
+    font-family: 'Poppins', sans-serif;
+}
+.nav-one{
+    height: 60px;
+    width: 100%;
+    background-color: #1D75DE;
+    padding: 10px 170px;
+}
+.nav-one .hindi{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-one h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+.nav-one i{
+    font-size: 30px;
+    color: white;
+}
+
+.nav-two{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    padding: 10px 170px;
+    display: flex;
+    align-items: center;
+}
+.nav-two .content img{
+    height: 35px;
+}
+.nav-two .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-two .content .links{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-two .content ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+.nav-two .content ul li:nth-child(3){
+    border-right: 1px solid white;
+    padding-right: 30px;
+}
+
+.hero{
+    height: 85vh;
+    width: 100%;
+    padding: 10px 250px;
+    background:  linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .image-section img{
+    height: 400px;
+}
+.hero .text-section h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+.hero .text-section .get-btn{
+    width: 180px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.why{
+    height: 80vh;
+    width: 100%;
+    padding: 80px 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.why h1{
+    font-size: 38px;
+    font-weight: 800;
+}
+.why .reasons{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.why .reasons .play{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.why .reasons img{
+    height: 140px;
+    margin-bottom: 35px;
+}
+.why .reasons h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.why .reasons p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.free{
+    height: 70vh;
+    background: url(./images/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.free h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.questions{
+    height: 90vh;
+    padding: 80px 170px;
+    
+}
+.questions h2{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+.questions .answer .que-one{
+    width: 100%;
+    border-bottom: 1px solid rgb(182, 181, 181);
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.questions .answer i{
+    font-size: 24px;
+}
+.questions .answer h2{
+    font-size: 16px;
+    font-weight: 300;
+}
+.questions .answer{
+    margin-top: 90px;
+}
+
+.ready .get-btn{
+    width: 180px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.ready{
+    height: 60vh;
+    background:  linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ready h1{
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
